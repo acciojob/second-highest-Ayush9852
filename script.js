@@ -1,7 +1,6 @@
-//your JS code here. If required.
 function secondHighest(arr) {
     // If the array is empty or has only 1 element or all elements are the same
-    if (arr.length <= 1 || new Set(arr).size === 1) {
+    if (arr.length === 0 || arr.length === 1 || new Set(arr).size === 1) {
         return -Infinity;
     }
 
